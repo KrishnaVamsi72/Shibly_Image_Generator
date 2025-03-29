@@ -3,3 +3,6 @@ uvicorn
 Pillow
 openai
 python-multipart
+streamlit
+requests
+Pillow
