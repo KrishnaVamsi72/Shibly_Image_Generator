@@ -50,9 +50,9 @@ async def get_image_description(img_data):
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert AI in creating highly detailed, artistic descriptions of images in Studio Ghibli style. "
-                        "Describe the facial features, expressions, clothing, and fine details in extreme detail, "
-                        "and explain the background, textures, lighting, and atmosphere with vivid language."
+                        "You are an expert AI in creating highly face detailed, artistic descriptions of images in Studio Ghibli style. "
+                        "Describe the very important facial features, expressions, clothing, and fine details in extreme detail, "
+                        "and explain the background, textures, lighting, and atmosphere with vivid language to the dall-e-3 api."
                     ),
                 },
                 {
