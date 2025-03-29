@@ -10,7 +10,7 @@ st.write("Upload an image and transform it into a magical Studio Ghibli-style il
 
 # Upload image widget
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-BACKEND_URL = "https://shibly-image-generator.onrender.com/"
+BACKEND_URL = "https://shibly-image-generator.onrender.com"
 # Button to generate Ghibli-style image
 if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
