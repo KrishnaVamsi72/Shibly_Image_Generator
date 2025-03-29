@@ -1,10 +1,10 @@
-Studio Ghibli-Style Image Generator
+**Studio Ghibli-Style Image Generator**
 
-Overview
+*Overview*
 
 This project explores generating Studio Ghibli-style images using GPT-4o and DALL·E 3. The goal is to transform uploaded images into beautiful, hand-painted Ghibli aesthetics. While the results are promising, the current implementation has limitations in capturing the full essence of Ghibli's signature style.
 
-Tech Stack
+*Tech Stack*
 
 Frontend: Streamlit
 
@@ -14,7 +14,7 @@ Hosting: Streamlit Cloud
 
 Dependencies: OpenAI API, Pillow, NumPy, Requests
 
-Features
+*Features*
 
 Upload an image and apply AI-generated transformations
 
@@ -22,7 +22,7 @@ Generate art inspired by Studio Ghibli’s visual style
 
 Experiment with different prompts and styles
 
-Current Limitations
+*Current Limitations*
 
 Inconsistent Styling: Some images do not fully capture the soft, dreamy feel of Ghibli aesthetics.
 
@@ -30,13 +30,13 @@ Facial Features: AI struggles with detailed, expressive anime-like facial expres
 
 Background Quality: Generated backgrounds may lack the depth and organic touch seen in Ghibli films.
 
-Try It Out
+*Try It Out*
 
-You can test the current implementation here: Studio Ghibli Image Generator
+You can test the current implementation here: https://shiblyimagegenerator-mb88u94rhqvvzzhn5iknr9.streamlit.app/
 
-How to Run Locally
+**How to Run Locally**
 
-Prerequisites
+*Prerequisites*
 
 Ensure you have the following installed on your system:
 
@@ -46,7 +46,7 @@ pip (Python package manager)
 
 OpenAI API key
 
-Installation Steps
+*Installation Steps*
 
 Clone the repository:
 
@@ -91,8 +91,4 @@ Fork this repository
 Create a new branch
 
 Make your changes and submit a pull request
-
-License
-
-This project is open-source under the MIT License.
 
