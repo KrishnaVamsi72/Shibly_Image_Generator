@@ -53,6 +53,7 @@ async def get_image_description(img_data):
                         "You are an expert AI in creating highly face detailed, artistic descriptions of images in Studio Ghibli style. "
                         "Describe the very important facial features, expressions, clothing, and fine details in extreme detail, "
                         "and explain the background, textures, lighting, and atmosphere with vivid language to the dall-e-3 api."
+                        "Please analyze the given image and extract every minute detail of the facial features. Describe the contours, shadows, textures, and subtle variations in facial features such as the eyes, nose, mouth, ears, skin tone, and any other details.Pay special attention to nuances like the curve of the jawline, the positioning of the eyebrows, the shape of the lips, and the reflection or shine in the eyes. Each feature should be described as if it were being drawn, including artistic details like light reflections, depth, and contrast.Once all the features are extracted and described, provide an elaborate explanation suitable for a visual artist, with clear instructions on how to replicate the image’s essence. The goal is to break down each aspect of the face in an artistic way to guide the generation of a detailed and accurate artwork from the description"
                     ),
                 },
                 {
