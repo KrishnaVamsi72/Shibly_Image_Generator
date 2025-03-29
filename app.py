@@ -10,7 +10,7 @@ st.write("Upload an image and transform it into a magical Studio Ghibli-style il
 
 # Upload image widget
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-
+BACKEND_URL = "https://shibly-image-generator.onrender.com/"
 # Button to generate Ghibli-style image
 if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
@@ -21,7 +21,7 @@ if uploaded_file is not None:
             files = {"file": uploaded_file.getvalue()}
 
             # Send the image to the backend FastAPI service
-            response = requests.post("http://127.0.0.1:8000/generate-ghibli/", files=files)
+            response = requests.post(f"{BACKEND_URL}/generate-ghibli/", files=files)
 
             if response.status_code == 200:
                 # Parse and display generated Ghibli-style image
